@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #87ceeb;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.head_bar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+}
+
+main {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  width: 80%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.input-sec {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 20px;
+}
+
+.input-sec > h2 {
+  color: #1e90ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-sec > form > .input {
+  margin: 8px 0;
+}
+
+.input-sec > form > button {
+  background-color: #1e90ff;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.input-sec > form > #editBuku,
+.input-sec > form > #submitBuku {
+  background: #1e90ff;
+  color: #fff;
+  padding: 8px;
+  width: 50%;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.input-sec > form > #editBuku {
+  display: none;
+}
+
+.input-sec > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.input-sec > form > .input > label {
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+.input-sec > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input-sec > form > .input_inline > label {
+  color: #1e90ff;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.book_shelf {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 20px;
+}
+
+.book_shelf > h2 {
+  color: #1e90ff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.book_shelf > .listBuku > .book_item {
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book_shelf > .listBuku > .book_item > .info > h3,
+p {
+  margin: 8px 0;
+}
+
+.book_shelf > .listBuku > .book_item > .action {
+  display: flex;
+  align-items: center;
+}
+
+.book_shelf > .listBuku > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checklist {
+  background: url("../img/checked.svg");
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.checklist:hover {
+  background: url("../img/checked.gif");
+  background-size: contain;
+}
+
+.edit {
+  background: url("../img/editt.svg");
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.edit:hover {
+  background: url("../img/edit.gif");
+  background-size: contain;
+  width: 20px;
+}
+
+.trash {
+  background: url("../img/trash.svg");
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-left: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.trash:hover {
+  background: url("../img/trash.gif");
+  background-size: contain;
+}
+
+.undo {
+  background: url("../img/restart.svg");
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  cursor: pointer;
+  border: none;
+}
+
+.undo:hover {
+  background: url("../img/restart.gif");
+  background-size: contain;
+}
